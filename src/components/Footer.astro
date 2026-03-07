@@ -1,0 +1,34 @@
+---
+interface Props {
+}
+const year = new Date().getFullYear();
+---
+
+<footer class="bg-gray-900 text-gray-300 py-12 border-t border-gray-800">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+      <div class="space-y-4">
+        <h3 class="text-white text-lg font-bold tracking-wide">Mire Research</h3>
+        <p class="text-sm leading-relaxed text-gray-400">
+          Dedicated to sharing and showcasing cutting-edge research findings, connecting innovative minds globally.
+        </p>
+      </div>
+      <div>
+        <h3 class="text-white text-lg font-bold tracking-wide mb-4">Links</h3>
+        <ul class="space-y-3 text-sm">
+          <li><a href="/" class="hover:text-white hover:underline decoration-indigo-500 underline-offset-4 transition-all">Home</a></li>
+          <li><a href="/about" class="hover:text-white hover:underline decoration-indigo-500 underline-offset-4 transition-all">About</a></li>
+          <li><a href="https://github.com/llumi-org/mire" class="hover:text-white hover:underline decoration-indigo-500 underline-offset-4 transition-all">GitHub Repository</a></li>
+          <li><a href="https://chem-wiki.llumi.org" target="_blank" class="hover:text-white hover:underline decoration-indigo-500 underline-offset-4 transition-all">Llumi ChemWiki</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="text-white text-lg font-bold tracking-wide mb-4">Contact</h3>
+        <p class="text-sm text-gray-400">Please reach out via GitHub Issues.</p>
+      </div>
+    </div>
+    <div class="border-t border-gray-800 mt-12 pt-8 text-center text-sm text-gray-500">
+      &copy; {year} Mire Research. All rights reserved.
+    </div>
+  </div>
+</footer>

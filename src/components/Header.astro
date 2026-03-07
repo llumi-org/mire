@@ -1,0 +1,28 @@
+---
+interface Props {
+}
+
+const t = {
+  home: "Home",
+  about: "About",
+  submit: "Submit Research"
+};
+
+const labels = t;
+---
+
+<header class="bg-white shadow-sm border-b border-gray-200 sticky top-0 z-50 backdrop-blur-md bg-opacity-90">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+    <div class="flex items-center gap-2">
+      <a href="/" class="text-2xl font-bold text-indigo-600 hover:text-indigo-700 transition-colors">Mire</a>
+      <span class="px-2 py-0.5 rounded-full bg-indigo-50 text-indigo-700 text-xs font-medium border border-indigo-100 hidden sm:inline-block">Llumi Research</span>
+    </div>
+    <nav class="hidden md:flex items-center space-x-6">
+      <a href="/" class="text-gray-600 hover:text-indigo-600 font-medium text-sm transition-colors">{labels.home}</a>
+      <a href="/about" class="text-gray-600 hover:text-indigo-600 font-medium text-sm transition-colors">{labels.about}</a>
+      <a href="https://github.com/llumi-org/mire" target="_blank" class="inline-flex items-center justify-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 transition-all">
+        {labels.submit}
+      </a>
+    </nav>
+  </div>
+</header>
