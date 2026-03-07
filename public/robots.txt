@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mire.llumi.org/sitemap-index.xml
