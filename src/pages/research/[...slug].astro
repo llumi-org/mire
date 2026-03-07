@@ -28,7 +28,7 @@ const year = dateObj.getUTCFullYear().toString().slice(-2);
 const month = (dateObj.getUTCMonth() + 1).toString().padStart(2, '0');
 const authorSlug = author.replace(/\s+/g, '-');
 
-// Calculate PDF filename using the same sorting logic as the PDF generation script
+// Calculate PDF filename consistent with PDF generation
 // Posts are sorted by date (ascending) so new posts get higher indices
 const allPosts = await getCollection('research');
 const sortedPosts = allPosts.sort((a, b) => {

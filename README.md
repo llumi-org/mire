@@ -31,7 +31,6 @@ A static site for publishing student research papers, built with [Astro](https:/
 ## Features
 
 - **Markdown Publishing:** Students submit research as Markdown files via Pull Requests.
-- **Automated PDF Generation:** GitHub Actions automatically converts Markdown to PDF using Pandoc.
 - **Modern Design:** Clean, responsive UI.
 
 ## Local Development
@@ -45,9 +44,6 @@ A static site for publishing student research papers, built with [Astro](https:/
    ```bash
    npm run dev
    ```
-
-3. Generate PDFs (requires Pandoc installed locally):
-   ```bash
    node scripts/generate-pdfs.js
    ```
 

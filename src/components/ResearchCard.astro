@@ -21,7 +21,7 @@ const formattedDate = dateObj.toLocaleDateString('en-US', {
 
 // Calculate PDF filename
 const allPosts = await getCollection('research');
-// Ensure this matches scripts/generate-pdfs.js logic
+// Ensure this matches the PDF generation logic
 const sortedPosts = allPosts.sort((a, b) => {
     const dateA = a.data.published || a.data.accepted || a.data.received;
     const dateB = b.data.published || b.data.accepted || b.data.received;
