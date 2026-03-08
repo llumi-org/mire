@@ -1,6 +1,16 @@
-# Mire Research Hub
+# Llumi Mire
 
 A static site for publishing student research papers, built with [Astro](https://astro.build) and deployed via GitHub Actions.
+
+## License & Copyright
+
+**Codebase:** The source code of this website is licensed under the MIT License.
+
+**Content:** Research papers published on Mire are owned by their respective authors. By submitting to Mire, authors grant Mire a non-exclusive license to display and distribute their work. Unless otherwise noted in the individual paper's metadata, content is not automatically licensed under Creative Commons.
+
+## Terms of Service
+
+By submitting content to this repository, you agree to our [Terms of Service](https://mire.llumi.org/terms) and [Privacy Policy](https://mire.llumi.org/privacy). You affirm that you hold the necessary rights to publish the submitted content and that it does not violate any third-party rights.
 
 ## How to Submit Research
 
@@ -44,10 +54,3 @@ A static site for publishing student research papers, built with [Astro](https:/
    ```bash
    npm run dev
    ```
-   node scripts/generate-pdfs.js
-   ```
-
-## Requirements for PDF Generation
-To generate PDFs locally, you need:
-- [Pandoc](https://pandoc.org/)
-- LaTeX (e.g., TeX Live or MikTeX) with XeLaTeX support for multilingual characters.

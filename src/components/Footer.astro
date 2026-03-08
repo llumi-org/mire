@@ -26,9 +26,17 @@ const year = new Date().getFullYear();
         <h3 class="text-white text-lg font-bold tracking-wide mb-4">Contact</h3>
         <p class="text-sm text-gray-400">Please reach out via GitHub Issues.</p>
       </div>
+      <div>
+        <h3 class="text-white text-lg font-bold tracking-wide mb-4">Legal</h3>
+        <ul class="space-y-3 text-sm">
+          <li><a href="/terms" class="hover:text-white hover:underline decoration-indigo-500 underline-offset-4 transition-all">Terms of Service</a></li>
+          <li><a href="/privacy" class="hover:text-white hover:underline decoration-indigo-500 underline-offset-4 transition-all">Privacy Policy</a></li>
+        </ul>
+      </div>
     </div>
-    <div class="border-t border-gray-800 mt-12 pt-8 text-center text-sm text-gray-500">
-      &copy; {year} Mire Research. All rights reserved.
+    <div class="border-t border-gray-800 mt-12 pt-8 text-center text-sm text-gray-500 flex flex-col items-center gap-2">
+      <p>&copy; {year} Mire Research. All rights reserved.</p>
+      <p class="text-xs text-gray-600">Content on this site is licensed under the terms specified by individual authors.</p>
     </div>
   </div>
 </footer>
